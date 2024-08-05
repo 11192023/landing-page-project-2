@@ -53,6 +53,10 @@ a{
 .break-all{
     word-break: break-all;
 }
+.active{
+    background-color: #FFB900;
+    cursor: none;
+}
 /* header */
 .heading.lv1{
     font-size: 5.8rem;
@@ -361,4 +365,69 @@ a{
     line-height: 30px;
     color: #171100;
 
+}
+/* feedback */
+.feedback{
+    margin-top:135px;
+    padding:96px 0 96px;
+    
+    background-color:#2E2100;
+}
+.feedback .item-feedback{
+    display:flex;
+
+}
+.feedback .infor .avatar{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.feedback .infor .heading.lv4{
+    margin-top: 18px;
+    color: #F7F7F7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 34px;
+}
+.feedback .infor .desc{
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8; /* 185.714% */
+    }
+
+.feedback .content-feedback{
+    width: 65%;
+}
+.feedback .infor{
+    width:39%;
+}
+
+.feedback .infor .dots{
+    margin-top:28px;
+    display:flex;
+    gap:5px;
+}
+.feedback .infor .dot{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+     background-color: #634700;
+}
+.feedback .infor .dots .dot.active{
+    background-color: #FEA31B;
+}
+.feedback .infor .dots .dot:hover{
+    background-color: #FEA31B;
+    cursor: pointer;
+}
+.feedback .content-feedback .desc-feedback{
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.53; /* 153.846% */
+    margin-left: 30px;
 }
