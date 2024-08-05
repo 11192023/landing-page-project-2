@@ -50,6 +50,9 @@ a{
     font-family: var(--font-heading);
     font-weight: 700;
 }
+.break-all{
+    word-break: break-all;
+}
 /* header */
 .heading.lv1{
     font-size: 5.8rem;
