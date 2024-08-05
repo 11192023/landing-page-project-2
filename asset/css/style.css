@@ -373,9 +373,16 @@ a{
     
     background-color:#2E2100;
 }
+.list-feedback{
+    display:flex;
+    overflow: hidden;
+}
 .feedback .item-feedback{
     display:flex;
-
+    width: 100%;
+    flex-shrink: 0;
+    transform: translateX(-100%);
+    transition: all ease .3s;
 }
 .feedback .infor .avatar{
     width: 72px;
