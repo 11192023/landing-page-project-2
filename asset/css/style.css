@@ -294,7 +294,7 @@ a{
     flex: 1;
 }
 .courses-list .item .thumb-img{
-    width: 100%;
+    width: 370px;
     height: 278px;
     border-radius: 12px 12px 0px 0px;
     opacity: 0px;
