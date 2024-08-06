@@ -644,6 +644,7 @@ a{
     flex-shrink: 0;
     transform: translateX(-100%);
     transition: all ease .3s;
+    /* haha */
 }
 .blog-bottom .list-blogs .item .list-blogs-item .col-item:hover{
     border-radius: 0 0 16px 16px;
