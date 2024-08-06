@@ -586,7 +586,7 @@ a{
     align-items: flex-start;
 }
 .blog-bottom .col-item .thumb-col-item{
-    width: 100%;
+    width: 370px;
     height: 250px;
     border-radius: 16px 16px 0px 0px;
     object-fit: cover;
