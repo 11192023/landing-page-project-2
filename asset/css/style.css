@@ -645,6 +645,10 @@ a{
     transform: translateX(-100%);
     transition: all ease .3s;
 }
+.blog-bottom .list-blogs .item .list-blogs-item .col-item:hover{
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.05);
+}
 .blog-bottom .list-blogs .item .dots{
     display: flex;
     gap:4px;
@@ -665,6 +669,94 @@ a{
     display:flex;
     overflow: hidden;
 }
+/* footer */
+footer{ 
+    padding-top:96px;
+    padding-bottom: 28px;
+    background-color: #2E2100;
+}
+footer .row{
+    display:flex;
+    gap: 130px;
+}
+footer .row .column:first-child{
+}
+footer .row .column .desc-footer{
+    margin-top: 18px;
+    color: #BFBCB2;
+    max-width: 267px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+}
+footer .row .column .social{
+    margin-top: 18px;
+    display: flex;
+    gap:10px;
+}
+footer .row .column .items{
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+}
+footer .row .column .title-footer{
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+}
+footer .row .column .title-footer::after{
+    display: flex;
+    content: "";
+    width: 130px;
+    height: 1px;
+    background: #59554B;
+    margin: 14px 0 28px;
+
+}
+footer .row .column .items .item a{
+    display: inline-block;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    max-width: 237px;
+}
+footer .row .column .items .item a strong{
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+}
+.row-bottom{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row-bottom .cross{
+    width: 1170px;
+    height: 1px;
+    background-color:  #59554B;
+}
+.row-bottom .the-end{
+    margin-top: 28px;
+    color: #807D74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+}
+.icon:hover{
+    opacity: 0.5;
+}
+a:hover{
+    opacity: 0.5;
+}
+
+
 
 
 
